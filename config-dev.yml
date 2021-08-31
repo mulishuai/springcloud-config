@@ -1,4 +1,11 @@
 spring:
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        #hostname: 127.0.0.1
+        service-name: ${spring.application.name}
   #rabbitmq相关配置 15672是Web管理界面的端口；5672是MQ访问的端口
   rabbitmq:
     host: 123.57.145.76
