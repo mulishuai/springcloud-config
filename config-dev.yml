@@ -1,6 +1,6 @@
 spring:
   #rabbitmq相关配置 15672是Web管理界面的端口；5672是MQ访问的端口
- rabbitmq:
+  rabbitmq:
     host: 123.57.145.76
     port: 5672
     username: admin
