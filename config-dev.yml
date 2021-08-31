@@ -6,4 +6,4 @@ spring:
     username: root
     password: root
 congif:
-  info: this is config info 2.0
+  info: this is config info 3.0
